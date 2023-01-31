@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{1A737CA0-86BE-44ED-BBB9-7756243FC46E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{67209C2A-009F-41B5-928A-466040170D35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Profile Data", "Profile Data", "{ACBFC74E-81C5-4387-A454-DEF825A283F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{34D0F99A-BF85-4312-A323-73D4F11E4F91}"
+	ProjectSection(SolutionItems) = preProject
+		MySrm\Dlls\readme.md = MySrm\Dlls\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{DFFAED19-7E9E-477B-B158-F1570C0F197D}"
+	ProjectSection(SolutionItems) = preProject
+		MySrm\Documentation\readme.md = MySrm\Documentation\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{CFC4D290-799A-408C-839E-615D16D5E5DD}"
+	ProjectSection(SolutionItems) = preProject
+		MySrm\Internal\Code Analysis\qaction-debug.ruleset = MySrm\Internal\Code Analysis\qaction-debug.ruleset
+		MySrm\Internal\Code Analysis\qaction-release.ruleset = MySrm\Internal\Code Analysis\qaction-release.ruleset
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProfileLoadScript", "ProfileLoadScript", "{8E8F9A7F-9EC7-4831-8CE4-24D41F46BC79}"
+	ProjectSection(SolutionItems) = preProject
+		MySrm\ProfileLoadScript.xml = MySrm\ProfileLoadScript.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{6F869FF1-7E26-4586-9219-D2434B6CE0B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProfileLoadScript_1", "MySrm\ProfileLoadScript_1\ProfileLoadScript_1.csproj", "{61169D2B-C835-4EC7-8B69-6AEFF32418F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61169D2B-C835-4EC7-8B69-6AEFF32418F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61169D2B-C835-4EC7-8B69-6AEFF32418F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61169D2B-C835-4EC7-8B69-6AEFF32418F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61169D2B-C835-4EC7-8B69-6AEFF32418F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CFC4D290-799A-408C-839E-615D16D5E5DD} = {1A737CA0-86BE-44ED-BBB9-7756243FC46E}
+		{8E8F9A7F-9EC7-4831-8CE4-24D41F46BC79} = {67209C2A-009F-41B5-928A-466040170D35}
+		{6F869FF1-7E26-4586-9219-D2434B6CE0B9} = {8E8F9A7F-9EC7-4831-8CE4-24D41F46BC79}
+		{61169D2B-C835-4EC7-8B69-6AEFF32418F9} = {6F869FF1-7E26-4586-9219-D2434B6CE0B9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {955EC3A7-7D84-4299-A6B2-58C6448D71ED}
+	EndGlobalSection
+EndGlobal
